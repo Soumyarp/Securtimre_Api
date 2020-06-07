@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-06T14:52:48.484Z",
+        "line": 3,
+        "name": "Verify if employee is being successfully added",
+        "description": "",
+        "id": "validating-employee-api-s;verify-if-employee-is-being-successfully-added",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4482000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create Employee Payload with given data",
+            "match": {
+              "location": "stepDefinations.Employee_StepDefination.create_Employee_Payload_with_given_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "affiliateName",
+                  "branchName",
+                  "dateOfJoining",
+                  "dateOfBirth",
+                  "departmentName",
+                  "employeeId",
+                  "employeeName",
+                  "enrollmentId",
+                  "gender",
+                  "roleName"
+                ]
+              },
+              {
+                "cells": [
+                  "Securax test",
+                  "bangalore",
+                  "2019-06-01",
+                  "2012-01-01",
+                  "DEL - Software Product",
+                  "400620",
+                  "testname006",
+                  "en400620",
+                  "MALE",
+                  "Employee"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3843000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User calls \"createEmployeeApi\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"createEmployeeApi\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the Api Call is Success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.the_Api_Call_is_Success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1425000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"employeeId\" in response body is \"400620\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"employeeId\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"400620\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddEmployee"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-06T14:52:58.373Z",
+        "line": 18,
+        "name": "Verify if employee is being successfully updated",
+        "description": "",
+        "id": "validating-employee-api-s;verify-if-employee-is-being-successfully-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Update Employee Payload with given data",
+            "match": {
+              "location": "stepDefinations.Employee_StepDefination.update_Employee_Payload_with_given_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "affiliateName",
+                  "branchName",
+                  "dateOfJoining",
+                  "dateOfBirth",
+                  "departmentName",
+                  "employeeId",
+                  "employeeName",
+                  "employmentStatus",
+                  "enrollmentId",
+                  "gender",
+                  "roleName"
+                ]
+              },
+              {
+                "cells": [
+                  "Securax test",
+                  "bangalore",
+                  "2019-06-01",
+                  "2012-01-01",
+                  "DEL - Software Product",
+                  "400620",
+                  "testname006",
+                  "ACTIVE",
+                  "en400620",
+                  "FEMALE",
+                  "Employee"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1069000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User calls \"updateEmployeeApi\" with \"Put\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"updateEmployeeApi\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Put\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the Api Call is Success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.the_Api_Call_is_Success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateEmployee"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-06T14:52:59.501Z",
+        "line": 27,
+        "name": "Verify if Employee is being successfully retrived",
+        "description": "",
+        "id": "validating-employee-api-s;verify-if-employee-is-being-successfully-retrived",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "To verify employee details",
+            "match": {
+              "location": "stepDefinations.Employee_StepDefination.to_verify_employee_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User calls \"getEmployeeDetailsByLastUpdated\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getEmployeeDetailsByLastUpdated\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the Api Call is Success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.Employee_StepDefination.the_Api_Call_is_Success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetEmployeeDetails"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Employee API\u0027s",
+    "description": "",
+    "id": "validating-employee-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/employee.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,178 @@
+Request method:	POST
+Request URI:	https://qa-api.securtime.in/api/employee
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-apiKey=123
+				x-secret=456
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountType": "",
+    "affiliateName": "Securax test",
+    "autoShiftEligibility": false,
+    "bank": "",
+    "bankBranchName": "",
+    "bank_ac_No": "",
+    "branchName": "bangalore",
+    "categoryName": "Contract",
+    "city": "",
+    "customMasterName": "",
+    "dateOfBirth": "2012-01-01",
+    "dateOfJoining": "2019-06-01",
+    "departmentName": "DEL - Software Product",
+    "designationName": "QA",
+    "deviceGroupNames": null,
+    "deviceMapping": null,
+    "email": "",
+    "emergencyContactNumber": "",
+    "employeeId": "400620",
+    "employeeName": "testname006",
+    "enrollmentId": "en400620",
+    "gender": "MALE",
+    "iFSCCode": "",
+    "managerEmployeeId": "",
+    "maritalStatus": "SINGLE",
+    "mobile": "",
+    "mobileUser": false,
+    "nationalId": "",
+    "otEligibility": false,
+    "panNumber": "",
+    "passportExpiryDate": "",
+    "passportNumber": "",
+    "personalAddress": "",
+    "personalEmailId": "",
+    "pfNumber": 0,
+    "pinCode": "",
+    "profilePic": null,
+    "roleName": "Employee",
+    "sendWelcomeEmail": false,
+    "userName": "",
+    "visaExpiryDate": "",
+    "visaNumber": ""
+}
+HTTP/1.1 200 
+Date: Sat, 06 Jun 2020 14:52:56 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALBTG=gy38pO/AiOhe5Hep6502dpPzxOBFVGCqds71VHpXtVqaYi+9FrOW+HMeMfqaJg/I/gHCla/2DzptOTLP41Cp9iq97fWdD/SCw5NLgwRe27SPBhzgrYxKWypEJxXtZxhliD6qaJ6dSNfsN7idTatfUA66qpvrJgtxJLKYUW9ewmQokbQC2LE=; Expires=Sat, 13 Jun 2020 14:52:55 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=gy38pO/AiOhe5Hep6502dpPzxOBFVGCqds71VHpXtVqaYi+9FrOW+HMeMfqaJg/I/gHCla/2DzptOTLP41Cp9iq97fWdD/SCw5NLgwRe27SPBhzgrYxKWypEJxXtZxhliD6qaJ6dSNfsN7idTatfUA66qpvrJgtxJLKYUW9ewmQokbQC2LE=; Expires=Sat, 13 Jun 2020 14:52:55 GMT; Path=/; SameSite=None; Secure
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+
+{
+    "accountNo": 2967240681,
+    "enrollmentId": "en400620",
+    "employeeId": "400620",
+    "name": "testname006",
+    "email": null,
+    "userName": null
+}
+Request method:	PUT
+Request URI:	https://qa-api.securtime.in/api/employee/update
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-apiKey=123
+				x-secret=456
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountType": "",
+    "affiliateName": "Securax test",
+    "autoShiftEligibility": false,
+    "bank": "",
+    "bankBranchName": "",
+    "bank_ac_No": "",
+    "branchName": "bangalore",
+    "categoryName": "",
+    "city": "",
+    "customMasterName": "",
+    "dateOfBirth": "2012-01-01",
+    "dateOfJoining": "2019-06-01",
+    "dateOfResignation": null,
+    "departmentName": "DEL - Software Product",
+    "designationName": "",
+    "deviceGroupNames": null,
+    "deviceMapping": null,
+    "email": "",
+    "emergencyContactNumber": "",
+    "employeeId": "400620",
+    "employeeName": "testname006",
+    "enrollmentId": "en400620",
+    "gender": "FEMALE",
+    "iFSCCode": "",
+    "managerEmployeeId": "",
+    "maritalStatus": "SINGLE",
+    "mobile": "",
+    "mobileUser": false,
+    "nationalId": "",
+    "otEligibility": false,
+    "panNumber": "",
+    "passportExpiryDate": "",
+    "passportNumber": "",
+    "personalAddress": "",
+    "personalEmailId": "",
+    "pfNumber": 0,
+    "pinCode": "",
+    "profilePic": null,
+    "roleName": "Employee",
+    "userName": "",
+    "visaExpiryDate": "",
+    "visaNumber": "",
+    "employmentStatus": "ACTIVE",
+    "lastDateOfEmployment": "",
+    "reasonForLeaving": ""
+}
+HTTP/1.1 200 
+Date: Sat, 06 Jun 2020 14:52:59 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: AWSALBTG=LXEmkuRBLyjcBB2R8U1oQlyttU/POK1vPNpXUtAHPak+0s0c3HFLJ9mJKz0vrYjTAfSBsM9anFBnBhxuQKjNP4P2Tb8swHf4/G3qPT2oEixw4BjIJ9lzsc8wRMmL0W224A6j+JxBlJ07Q4XSzezB9Cq84qGDm7sSF5bkX+BuCBDNB3dKP3I=; Expires=Sat, 13 Jun 2020 14:52:58 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=LXEmkuRBLyjcBB2R8U1oQlyttU/POK1vPNpXUtAHPak+0s0c3HFLJ9mJKz0vrYjTAfSBsM9anFBnBhxuQKjNP4P2Tb8swHf4/G3qPT2oEixw4BjIJ9lzsc8wRMmL0W224A6j+JxBlJ07Q4XSzezB9Cq84qGDm7sSF5bkX+BuCBDNB3dKP3I=; Expires=Sat, 13 Jun 2020 14:52:58 GMT; Path=/; SameSite=None; Secure
+X-Frame-Options: SAMEORIGIN
+Request method:	GET
+Request URI:	https://qa-api.securtime.in/api/getEmployeeDetailsByLastUpdatedDateTime?AffiliateName=AAAOH1&BranchName=SecuraxOH12&EmpLastUpdated=2020-06-01%2000%3A00%3A00
+Proxy:			<none>
+Request params:	<none>
+Query params:	AffiliateName=AAAOH1
+				BranchName=SecuraxOH12
+				EmpLastUpdated=2020-06-01 00:00:00
+Form params:	<none>
+Path params:	<none>
+Headers:		x-apiKey=123
+				x-secret=456
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Date: Sat, 06 Jun 2020 14:52:59 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALBTG=uozCl1LdZH9NouMID3dDUevB5KY6t10OCe6XUKfK1k0KcotrRm8smFG/hFeWzX3e7LZzN2h1+EVJd8KhAs2sDW3BY3lIK9WA0T1HBZ+IYea3QOWO7jp0xZSj7XhfH3wIaOF4Z2ia9vaKH5q4sHNbL0SmW0KyfGjtQ3xsuTrMPF3G7S+F2QE=; Expires=Sat, 13 Jun 2020 14:52:59 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=uozCl1LdZH9NouMID3dDUevB5KY6t10OCe6XUKfK1k0KcotrRm8smFG/hFeWzX3e7LZzN2h1+EVJd8KhAs2sDW3BY3lIK9WA0T1HBZ+IYea3QOWO7jp0xZSj7XhfH3wIaOF4Z2ia9vaKH5q4sHNbL0SmW0KyfGjtQ3xsuTrMPF3G7S+F2QE=; Expires=Sat, 13 Jun 2020 14:52:59 GMT; Path=/; SameSite=None; Secure
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+
+{
+    "employeeDetailsByLastUpdatedList": [
+        
+    ],
+    "totalCount": 0
+}
